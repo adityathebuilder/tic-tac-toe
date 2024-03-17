@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    gap: 5px;
+    margin: 20px auto;
+  }
+  
+  .cell {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: rgb(25, 5, 5);
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p#status {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
